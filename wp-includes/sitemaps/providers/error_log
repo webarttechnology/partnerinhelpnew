@@ -1,0 +1,24 @@
+[16-Jul-2025 19:28:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[16-Jul-2025 19:28:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[16-Jul-2025 19:28:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[17-Jul-2025 15:49:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[17-Jul-2025 15:49:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[17-Jul-2025 15:49:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Sitemaps_Provider" not found in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17

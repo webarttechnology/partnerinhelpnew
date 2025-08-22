@@ -1,0 +1,812 @@
+@media screen and (max-width: 3840px){}
+@media (min-width: 2550px) and (max-width: 3840px){
+	.logo img{
+		height: 100%;
+		max-height: 130px;
+	}
+	.stellarnav>ul>li>a{
+		font-size: 26px;
+	}
+	header .btn, p, .btn-color, .service-offer .banner-text .foxy li, .page-id-7 .about-box-wrp p, .partnership-text, .btn-contact, .home-form label, .bottom-footer p, .reference ul li{
+		font-size: 26px;
+	}
+	h2{
+		font-size: 64px;
+	}
+	h3, .footer-icon a{
+		font-size:56px;
+	}
+	.banner-text h2.purpleTitle::after{
+		width: 110px;
+		height: 3px;
+		left: 50%;
+	}
+	.about-box .heading{
+		margin-bottom: 25px;
+	}
+	.page-id-7 .about-box-wrp .purpleTitle {
+		font-size: 36px !important;
+	}
+	.partnership-title{
+		font-size: 64px;
+	}
+	.page-id-7 .home-form h2 {
+		font-size: 64px !important;
+	}
+	.home-form .form-control, .footer-form input{
+		height: 70px;
+	}
+	.form-control, .footer-part .menu li, .menu p{
+		font-size: 26px;
+	}
+	.footer-part .menu article{
+		font-size: 40px;
+		margin-bottom: 15px;
+	}
+	footer .footer-form .home-button .btn-color {
+		padding: 15px 36px;
+		font-size: 26px;
+	}
+	.donor-section .butterfly{
+		right: 35%;
+	}
+	#community .butterfly{
+		right: 35%;
+	}
+	.page-id-15 .fourth .butterfly-large {
+		top: auto;
+		bottom: 45px;
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2{
+		right: -69%;
+	}
+	.contactButterfly .bf.bf-5{
+		right; 0;
+	}
+}
+
+@media (min-width: 1620px) and (max-width: 2549.99px){
+	.logo img{
+		height: 100%;
+		max-height: 130px;
+	}
+	.stellarnav>ul>li>a{
+		font-size: 24px;
+	}
+	header .btn, p, .btn-color, .service-offer .banner-text .foxy li, .page-id-7 .about-box-wrp p, .partnership-text, .btn-contact, .home-form label, .bottom-footer p, .reference ul li{
+		font-size: 24px;
+	}
+	h2{
+		font-size: 60px;
+	}
+	h3, .footer-icon a{
+		font-size:50px;
+	}
+	.banner-text h2.purpleTitle::after{
+		width: 110px;
+		height: 3px;
+		left: 50%;
+	}
+	.about-box .heading{
+		margin-bottom: 2.px;
+	}
+	.page-id-7 .about-box-wrp .purpleTitle {
+		font-size: 32px !important;
+	}
+	.partnership-title{
+		font-size: 6.px;
+	}
+	.page-id-7 .home-form h2 {
+		font-size: 60px !important;
+	}
+	.home-form .form-control, .footer-form input{
+		height: 65px;
+	}
+	.form-control, .footer-part .menu li, .menu p{
+		font-size: 24px;
+	}
+	.footer-part .menu article{
+		font-size: 34px;
+		margin-bottom: 15px;
+	}
+	footer .footer-form .home-button .btn-color {
+		padding: 15px 36px;
+		font-size: 24px;
+	}
+	.donor-section .butterfly{
+		right: 28%;
+	}
+	#community .butterfly{
+		right: 30%;
+	}
+	#community .butterfly {
+		right: 28%;
+	}
+	.page-id-15 .fourth .butterfly-large {
+		top: auto;
+		bottom: 45px;
+	}
+	.reference ul li span.numbers {
+		top: 7px;
+	}
+}
+@media screen and (max-width: 1440.99px){
+	.page-id-7 .service-offer.bg-light .butterfly-small{
+		transform: rotate(129deg) translate(-25px, 25px) scale(0.8, 0.8);
+	}
+	.page-id-7 .service-offer.bg-light .butterfly-small.secondButter {
+		transform: rotate(-32deg) translate(-55px, -80px) scale(0.8, 0.8);
+	}
+}
+
+@media screen and (max-width: 1366.99px){
+	.page-id-15 .fourth.reference .butterfly-small {
+		position: absolute;
+		transform: rotate(219deg) translate(30px, 25px) scale(0.7, 0.7);
+		right: 0;
+	}
+}
+@media screen and (max-width: 1299.99px){
+	#community .butterfly{
+		right: 260px;
+	}
+	.stellarnav.mobile, .stellarnav.mobile.fixed{
+		z-index: 1;
+	}
+}
+@media screen and (max-width: 1024.99px){
+	
+	.banner .butterfly{
+		right: 38%;
+	}
+	.butterfly-large {
+		transform: rotate(-45deg) translate(75px, 135px) scale(0.5, 0.5);
+	}
+	.donor-section .butterfly {
+
+		right: 25%;
+
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2{
+		right: -70%;
+	}
+	.page-id-7 .service-offer.bg-light .butterfly-small {
+		transform: rotate(129deg) translate(-30px, 40px) scale(0.6, 0.6);
+	}
+	#community .butterfly{
+		right: 140px;
+		top: 38px;
+	}
+	.donor-section{
+		padding-bottom: 50px;
+	}
+	footer .footer-form .home-button {
+    padding: 0 12px;
+}
+}
+@media screen and (max-width: 991px){
+	.stellarnav>ul>li>a{
+		padding: 10px 20px !important;
+	}
+#mynewsLetterModal .modal-body .col-md-8, #mynewsLetterModal .modal-body .col-md-4{
+		width: 100%;
+	}
+	h2,.partnership-title, .page-id-7 .home-form h2, .hero-title{
+		font-size: 36px;
+	}
+	#mynewsLetterModal .home-button{
+		padding-top: 25px;
+	}
+	#mynewsLetterModal .modal-header .btn-close{
+		top: -20px;
+    right: 5px;
+	}
+	#community .butterfly {
+		right: 125px;
+		top: 20px;
+	}
+	.page-id-15 .fourth .butterfly-large {
+		top: auto;
+		bottom: 45px;
+	}
+	p,.btn-color,.service-offer .banner-text .foxy li,.btn-contact, .reference ul li, .hero-subtitle{
+		font-size: 16px;
+	}
+	.donor-section .butterfly {
+		position: absolute;
+		width: 50px;
+		right: 13%;
+		top: 60px;
+		transform: rotate(-10deg);
+	}
+	.partnership-text{
+		font-size: 16px;
+	}
+	.page-id-7 .banner-text h4{
+		font-size: 36px;
+	}
+	.home-form .form-control{
+		height: 40px;
+	}
+	h4::after{
+		display: none;
+	}
+
+	/* 	community */
+	.page-id-15 .fourth-box{
+		padding: 15px 0;
+	}
+	.about-top .butterfly-large {
+    transform: rotate(-45deg) translate(0px, 185px) scale(0.5, 0.5);
+}
+	.footer-part .menu article{
+		padding-top: 0;
+		        padding-bottom: 10px;
+	}
+	.footer-part .menu ul{
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 850.99px){
+	.stellarnav>ul>li>a::after{
+		display: none;
+	}
+}
+@media screen and (max-width: 820.99px){
+	.page-id-15 h2, h2, .page-id-13 h2{
+		font-size: 28px;
+	}
+	.banner .butterfly {
+		right: 37%;
+		width: 40px;
+		transform: rotate(-18deg);
+	}
+	.butterfly-small{
+		transform: rotate(129deg) translate(-65px, 0) scale(0.7, 0.7);
+	}
+	#community .butterfly {
+		position: absolute;
+		width: 50px;
+		right: 115px;
+		top: 15px;
+		transform: rotate(-45deg);
+	}
+	.donor-section .butterfly {
+		position: absolute;
+		width: 50px;
+		right: 110px;
+		top: 50px;
+		transform: rotate(-35deg);
+	}
+	.page-id-15 .fourth .butterfly-large {
+		top: auto;
+		bottom: 25px;
+		transform: rotate(-45deg) translate(40px, 150px) scale(0.5, 0.5);
+	}
+	.page-id-13 .donor-section .bf.bf-1{
+		left: 20%;
+	}
+	.page-id-13 .donor-section .bf.bf-2{
+		top: -50%;
+		left: 27%;
+	}
+	.canvas.contactButterfly .bf.bf-5{
+		bottom: -25px;
+	}
+	.page-id-13 .donor-section .bf.bf-3{
+		top: -100%;
+	}
+	.page-id-13 .donor-section .bf.bf-4{
+		top: 100%;
+		left: 22%;
+	}
+	.page-id-13 .donor-section .bf.bf-5{
+		bottom: -150px;
+		left: 50%;
+	}
+}
+@media screen and (max-width: 768.99px){
+	.page-id-15 .fourth .butterfly-large {
+		top: auto;
+		bottom: 10px;
+		transform: rotate(-45deg) translate(60px, 155px) scale(0.5, 0.5);
+	}
+	.page-id-13 .donor-section .bf.bf-2{
+		top: -65%;
+	}
+	.page-id-15 .fourth.reference .butterfly-small {
+		position: absolute;
+		transform: rotate(219deg) translate(30px, 25px) scale(0.7, 0.7);
+		right: 0;
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2 {
+		right: -39%;
+		top: -65%;
+	}
+	.reference ul li{
+		display: block;
+		position: relative;
+		padding-left: 25px;
+
+	}
+	.reference ul li span.numbers{
+		position: absolute;
+		left: -2px;
+		height: 15px;
+		width: 15px;
+	}
+	.swiper-button-next, .swiper-button-prev{
+		height: 35px !important;
+    width: 35px !important;
+	}
+	.swiper-button-next:after, .swiper-button-prev:after {
+    font-size: 17px !important;
+}
+	.donor-section{
+		padding-bottom: 50px;
+	}
+	.address li span i {
+    font-size: 14px;
+}
+}
+@media screen and (max-width: 767px){
+	.fourth.multiple_row .row.align-items-center:nth-child(3) {
+		flex-direction: column-reverse; 
+	}
+	.collaboration-container{
+		overflow: hidden;
+	}
+}
+@media screen and (max-width: 575px){
+	h2,.partnership-title, .page-id-7 .home-form h2, .page-id-13 h2, .hero-title{
+		font-size: 26px;
+	}
+	.page-id-15 h2{
+		font-size: 26px !important;
+	}
+	.page-id-7 .banner-text h4 {
+		font-size: 26px;
+	}
+	p, .btn-color, .service-offer .banner-text .foxy li, .btn-contact,.reference ul li, .donor-text, .hero-subtitle {
+		font-size: 14px;
+	}
+	.menu-item-523 a{
+		background: unset;
+		color: unset !important;
+	}
+	.canvas.contactButterfly .bf.bf-5 , .secondButterfly .canvas .bf.bf-3{
+		bottom: -25px;
+		right: 0;
+	}
+	.secondButterfly .canvas .bf.bf-1 {
+		left: 0;
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2 {
+		right: -40px;
+		top: -65%;
+	}
+	/* 	.secondButterfly .canvas, .canvas.contactButterfly{
+	display: none;
+} */
+	.donor-section .butterfly{
+		width: 35px;
+		right: 35px;
+		top: 9px;
+	}
+	.page-id-13 .donor-section .bf.bf-4 {
+		top: auto;
+		right: -75%;
+		left: auto;
+		bottom: -50%;
+	}
+	.page-id-13 .donor-section .bf.bf-1 {
+		left: 40%;
+		top: 43%;
+	}
+	.page-id-13 .donor-section .bf.bf-3 {
+		top: -85%;
+		width: 25px;
+	}
+	.page-id-13 .donor-section .bf.bf-2 {
+		top: -50%;
+		left: 42%;
+	}
+	.hero-overlay{
+		clip-path: unset;
+	}
+	.donor-text{
+		margin-bottom: 25px !important;
+	}
+	.banner-text h2.purpleTitle::after{
+		left: 45%;
+	}
+	.home-box-wrp-img2 img{
+		height: 110px;
+	}
+	.page-id-7 .about-box-wrp .purpleTitle {
+		font-size: 20px;
+	}
+	.partnership-section{
+		padding: 40px 0;
+		clip-path: unset;
+	}
+	.about .banner-img-box{
+		padding-top: 80px;
+	}
+	.about .banner-img-box .about-img{
+		top: 0;
+	}
+	.about .banner-img-box .about-img img{
+		height: 110px;
+	}
+	.about .banner-img-box .about-img2{
+		bottom: -120px;
+		right: 0;
+	}
+	.page-id-7 .about-box{
+		padding-top: 0;
+	}
+	.about .banner-img-box .about-img2 img{
+		width: 100%;
+		height: 150px;
+	}
+	.about-box .home-box-wrp-img{
+		top: 10px;
+	}
+	.last-img {
+		position: absolute;
+		bottom: 30px;
+	}
+	.last-img img {
+		width: 100%;
+		max-width: 50%;
+	}
+	.about-box .home-box-wrp-img img{
+		width: 100%;
+		max-width: 50%;
+	}
+	.form-img{
+		padding: 44px 50px;
+	}
+	.banner-text{
+		padding-left: 0;
+	}
+	/* about	 */
+	.page-id-11 .fourth-box,.page-id-11 .contact-text {
+		padding: 15px;
+	}
+	.page-id-11 .about-top,.page-id-11 .fourth, .donor-section, .hero-overlay, .collaboration-container{
+		padding: 40px 0;
+	}
+	.quotionText{
+		margin: 0;
+	}
+	.fourth.bg-light.reference .fourth-box ul{
+		padding-left: 0;
+	}
+	.butterfly-small, .page-id-7 .partnership-section .butterfly-small{
+		transform: rotate(129deg) translate(-65px, 0) scale(0.5, 0.5);
+	}
+	.page-id-7 .service-offer .butterfly-small{
+		transform: rotate(-150deg) translate(-220px, 140px) scale(0.5, 0.5);
+	}
+	.butterfly-small.secondButter{
+		right: 40px;
+		transform: rotate(55deg) translate(-85px, -30px) scale(0.5, 0.5) !important;
+	}
+	.footer-part .menu ul, .footer-logo .logo, .footer-icon, .footer-part .menu p, .footer-part .menu ul.address li a{
+		padding: 0;
+		text-align: center;
+	}
+/* 	.footer-part .footer-form .home-button p{
+		text-align: left !important;
+	} */
+	footer .footer-form .home-button .btn-color{
+		max-width: 50%;
+		    padding: 7px 25px;
+		font-size: 14px;
+	}
+	.page-id-7 .oddClass{
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+	.footer-part .menu ul.address li a{
+		justify-content: center;
+		line-height: 1.2;
+	}
+	.footer-part{
+		padding: 40px 0 0 0;
+	}
+	.footer-part .menu article {
+		text-align: center;
+	}
+	.footer-part .menu{
+		padding-left: 0;
+	}
+	#community{
+		padding-bottom: 10px;
+	}
+	.footer-logo {
+    padding-top: 0;
+}
+	.page-id-7 .home-button .btn-color{
+		    padding: 15px 30px 15px 30px;
+	}
+	.home-form .home-button .btn-color.contactBtn {
+    padding: 10px 20px 10px 20px;
+}
+	.page-id-17 .partnership-section .row.mt-5{
+		margin-top: 15px !important;
+	}
+	.collaboration-container{
+		padding: 40px 15px;
+	}
+	.bottom-footer {
+		padding-top: 0;
+	}
+	.bottom-footer p {
+		border-top: 1px solid #fff;
+		padding: 25px 0;
+		margin: 0;
+	}
+	.butterfly-large {
+		transform: rotate(-45deg) translate(15px, 150px) scale(0.2, 0.2);
+	}
+	#community .butterfly{
+		width: 35px;
+	}
+	.about-top .butterfly-small{
+		transform: rotate(129deg) translate(-10px, 35px) scale(0.5, 0.5);
+	}
+	.about-top .butterfly-large {
+		transform: rotate(-45deg) translate(56px, 200px) scale(0.2, 0.2);
+	}
+	.page-id-15 .fourth.reference .butterfly-large{
+		transform: rotate(-45deg) translate(72px, 186px) scale(0.3, 0.3);
+	}
+
+	.testimonialButter .canvas .bf.bf-3 {
+		width: 40px;
+		left: auto;
+		right: 0;
+		transform: rotate(-36deg);
+		top: -50%;
+	}
+	.page-id-15 .fourth.reference .butterfly-small {
+		position: absolute;
+		transform: rotate(142deg) translate(-10px, 70px) scale(0.4, 0.4);
+	}
+	.page-id-7 .partnership-section .butterfly-small{
+		bottom: -30px;
+	}
+	.page-id-7 .service-offer.bg-light .butterfly-small {
+		transform: rotate(-123deg) translate(30px, 31px) scale(0.6, 0.6);
+		right: 20px;
+	}
+	.secondButterfly .canvas .bf.bf-5{
+		width: 20px;
+	}
+	.canvas.contactButterfly .bf.bf-5, .secondButterfly .canvas .bf.bf-3 {
+		bottom: -55px;
+		right: 0;
+	}
+	.testimonial{
+		padding: 45px 0 35px 0;
+	}
+	.testimonial .name h3, .testimonial .name h5{
+		text-align: center;
+	}
+	.testimonial .swiper-slide{
+		margin-bottom: 25px;
+	}
+	.testimonial .swiper-wrapper{
+		padding-bottom: 25px;
+	}
+	.swiper-button-next, .swiper-button-prev{
+/* 		top: 80% !important; */
+		top: auto !important;
+        bottom: 0;
+	}
+	.swiper-button-next {
+    right: 33% !important;
+}
+	.swiper-button-prev {
+    right: auto !important;
+    left: 36% !important;
+}
+	
+	.partnership-card p{
+		min-height: 85px;
+	}
+}
+@media screen and (max-width: 430px){
+	.page-id-7 .partnership-section .butterfly-small {
+		bottom: 0;
+	}
+	.secondButterfly .canvas .bf.bf-5{
+		top: 25%;
+	}
+	.contactButterfly .bf.bf-3{
+		top: -485px;
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2 {
+		right: -75px;
+		top: -85%;
+	}
+	.contactButterfly .bf.bf-4 {
+		left: 90%;
+		top: -70%;
+	}
+	.partnership-card h3{
+		min-height: 56px;
+	}
+	.form-img {
+	padding: 30px;
+}
+}
+@media screen and (max-width: 380px){
+	.donor-section .butterfly {
+		width: 25px;
+		right: 30px;
+		top: 15px;
+	}
+	.footer-part {
+	padding: 30px 0 0 0;
+}
+	.secondButterfly .canvas .bf.bf-1 {
+		left: 40px;
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2 {
+		right: -95px;
+		top: -105%;
+	}
+	.canvas.contactButterfly .bf.bf-5, .secondButterfly .canvas .bf.bf-3 {
+		bottom: -20px;
+		right: 0;
+	}
+	.page-id-7 .partnership-section .butterfly-small {
+		bottom: -30px;
+		left: -50px;
+	}
+	#mynewsLetterModal .modal-header h2{
+		font-size: 28px;
+	}
+}
+@media (min-width: 370px) and (max-width: 379.99px){
+	.page-id-13 .donor-section .bf.bf-1{
+		top: 60%;
+	}
+}
+
+@media (min-width: 326px) and (max-width: 370px){
+	.page-id-13 .donor-section .bf.bf-5 {
+	bottom: -187px;
+	left: 38%;
+}
+	.page-id-13 .donor-section .bf.bf-4 {
+	top: auto;
+	right: -70%;
+	left: auto;
+	bottom: -64%;
+}
+	.page-id-13 .donor-section .bf.bf-1 {
+	left: 40%;
+	top: 60%;
+}
+	.page-id-17 .secondButterfly.partnership .canvas .bf.bf-2 {
+    right: -110px;
+    top: -115%;
+}
+}
+@media screen and (max-width: 325px){
+	h2,.partnership-title, .page-id-7 .home-form h2, .page-id-13 h2{
+		font-size: 26px;
+	}
+	.page-id-15 h2{
+		font-size: 26px !important;
+	}
+	.secondButterfly.partnership .canvas .bf.bf-2 {
+		right: -95px;
+		top: 50%;
+	}
+	.secondButterfly .canvas .bf.bf-1 {
+		left: 35%;
+	}
+	.page-id-7 .partnership-section .butterfly-small {
+		bottom: 0;
+		left: -20px;
+	}
+	h3{
+		font-size: 20px;
+	}
+	h5{
+		font-size: 16px;
+	}
+	.testimonial.community h4{
+		font-size: 16px;
+	}
+	.testimonial.community h3{
+		font-size: 16px;
+	}
+	.testimonial.community h5{
+		font-size: 14px;
+	}
+	.page-id-13 .donor-section .bf.bf-3 {
+		top: -75%;
+		right: -45%;
+	}
+	.page-id-13 .donor-section .bf.bf-2{
+		top: -68%;
+	}
+	.page-id-13 .donor-section .bf.bf-1{
+		top: 68%;
+		width: 20px;
+	}
+	.page-id-13 .donor-section .bf.bf-5 {
+		bottom: -280px;
+		left: 50%;
+	}
+	.reference ul li span{
+		height: 15px;
+		width: 15px;
+	}
+	.page-id-15 .fourth.reference .butterfly-small{
+		position: absolute;
+		transform: rotate(142deg) translate(-10px, 70px) scale(0.4, 0.4);
+	}
+	.page-id-7 .banner-text h4 {
+		font-size: 24px;
+	}
+	.page-id-7 .about-box-wrp .purpleTitle {
+		font-size: 20px;
+	}
+	.partnership-text {
+		font-size: 14px;
+	}
+	.home-form{
+		padding: 40px 0;
+	}
+	.form-img{
+		padding: 15px;
+	}
+	.swiper-button-next, .swiper-button-prev{
+		height: 30px !important;
+		width: 30px !important;
+	}
+	.swiper-button-next:after, .swiper-button-prev:after {
+		font-size: 14px !important;
+	}
+	.testimonialButter .canvas .bf.bf-5{
+		width: 35px;
+		left: 20%;
+	}
+	.testimonialButter .canvas .bf.bf-3{
+		width: 30px;
+	}
+	.butterfly-small, .page-id-7 .partnership-section .butterfly-small{
+		transform: rotate(129deg) translate(-65px, 0) scale(0.4, 0.4);
+	}
+	.page-id-7 .service-offer .butterfly-small {
+		transform: rotate(-150deg) translate(-110px, 100px) scale(0.4, 0.4);
+	}
+	.butterfly-small.secondButter {
+		right: 40px;
+		transform: rotate(55deg) translate(-85px, -105px) scale(0.4, 0.4) !important;
+	}
+	.banner .butterfly-small{
+		transform: rotate(12deg) translate(0, -60px) scale(0.4, 0.4);
+	}
+	.butterfly-small, .page-id-7 .partnership-section .butterfly-small {
+		transform: rotate(45deg) translate(0, 20px) scale(0.4, 0.4);
+	}
+	.banner .butterfly {
+		right: 15%;
+		width: 40px;
+		transform: rotate(-25deg);
+	}
+	.page-id-17 .canvas.contactButterfly .bf.bf-5{
+		        bottom: -86px;
+	}
+
+}

@@ -1,0 +1,462 @@
+0000.001 (0) Opened log file at time: Wed, 06 Aug 2025 11:23:15 +0000 on https://dwstaging.link/cms/partner-for-help
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.2 PHP: 8.2.26 (cgi-fcgi, Linux pdx1-shared-a4-07 6.6.49-grsec-jammy+ #10 SMP Thu Sep 12 23:23:08 UTC 2024 x86_64) MySQL: 8.0.28-0ubuntu0.20.04.3 (max packet size=33554432) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 250M (used: 33.7M | 36M) multisite: N openssl: OpenSSL 3.0.2 15 Mar 2022 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.016 (0) Free space on disk containing Updraft's temporary directory: 3492470.7 MB
+0000.026 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.042 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.047 (0) Set semaphore last lock (fd) time to 2025-08-06 11:23:15
+0000.048 (0) Semaphore lock (fd) complete
+0000.055 (0) Backup run: resumption=0, nonce=846777dd17fe, file_nonce=846777dd17fe begun at=1754479395 (0s ago), job type=backup
+0000.058 (0) Scheduling a resumption (1) after 300 seconds (1754479695) in case this run gets aborted
+0000.085 (0) Checking if we have a zip executable available
+0000.087 (0) Testing: /usr/bin/zip
+0000.129 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.137 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.139 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.141 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.143 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.187 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.192 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.232 (0) Working binary zip found: /usr/bin/zip
+0000.251 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.253 (0) Creation of backups of directories: beginning
+0000.264 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.134 (0) Total entities for the zip file: 691 directories, 4733 files (0 skipped as non-modified), 78.5 MB
+0002.158 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0002.170 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0002.183 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0002.195 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0002.214 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0002.230 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0002.244 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0002.260 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0002.275 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0002.289 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0002.297 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.6 MB, 4733 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0004.379 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: size is now: 7.00 MB
+0004.458 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1100 files added (on-disk size: 7165.2 KB)
+0004.546 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1200 files added (on-disk size: 7165.2 KB)
+0004.555 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1300 files added (on-disk size: 7165.2 KB)
+0004.565 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1400 files added (on-disk size: 7165.2 KB)
+0004.574 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1500 files added (on-disk size: 7165.2 KB)
+0004.589 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1600 files added (on-disk size: 7165.2 KB)
+0004.607 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1700 files added (on-disk size: 7165.2 KB)
+0004.623 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1800 files added (on-disk size: 7165.2 KB)
+0004.637 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 1900 files added (on-disk size: 7165.2 KB)
+0004.653 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2000 files added (on-disk size: 7165.2 KB)
+0004.655 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (17.3 MB, 4733 files batched, 1001 (2002) added so far); re-opening (prior size: 7165.2 KB)
+0006.267 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: size is now: 14.00 MB
+0006.284 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2100 files added (on-disk size: 14344.8 KB)
+0006.296 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2200 files added (on-disk size: 14344.8 KB)
+0006.310 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2300 files added (on-disk size: 14344.8 KB)
+0006.328 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2400 files added (on-disk size: 14344.8 KB)
+0006.345 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2500 files added (on-disk size: 14344.8 KB)
+0006.355 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2600 files added (on-disk size: 14344.8 KB)
+0006.365 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2700 files added (on-disk size: 14344.8 KB)
+0006.374 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2800 files added (on-disk size: 14344.8 KB)
+0006.383 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 2900 files added (on-disk size: 14344.8 KB)
+0006.392 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3000 files added (on-disk size: 14344.8 KB)
+0006.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.7 MB, 4733 files batched, 1001 (3003) added so far); re-opening (prior size: 14344.8 KB)
+0007.170 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: size is now: 17.00 MB
+0007.182 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3100 files added (on-disk size: 17376.9 KB)
+0007.193 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3200 files added (on-disk size: 17376.9 KB)
+0007.211 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3300 files added (on-disk size: 17376.9 KB)
+0007.226 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3400 files added (on-disk size: 17376.9 KB)
+0007.245 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3500 files added (on-disk size: 17376.9 KB)
+0007.255 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3600 files added (on-disk size: 17376.9 KB)
+0007.265 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3700 files added (on-disk size: 17376.9 KB)
+0007.275 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3800 files added (on-disk size: 17376.9 KB)
+0007.285 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 3900 files added (on-disk size: 17376.9 KB)
+0007.296 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4000 files added (on-disk size: 17376.9 KB)
+0007.298 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.5 MB, 4733 files batched, 1001 (4004) added so far); re-opening (prior size: 17376.9 KB)
+0007.861 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4100 files added (on-disk size: 19664.1 KB)
+0007.875 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4200 files added (on-disk size: 19664.1 KB)
+0007.888 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4300 files added (on-disk size: 19664.1 KB)
+0007.900 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4400 files added (on-disk size: 19664.1 KB)
+0007.910 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4500 files added (on-disk size: 19664.1 KB)
+0007.919 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4600 files added (on-disk size: 19664.1 KB)
+0007.927 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: 4700 files added (on-disk size: 19664.1 KB)
+0009.006 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.tmp: size is now: 24.60 MB
+0009.058 (0) Creating zip file manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.list-temp.tmp)
+0009.073 (0) Successfully created zip file manifest (size: 428640)
+0009.334 (0) Created plugins zip (0) - 25214.5 KB in 9.1 s (2783.3 KB/s) (sha1: 7ea3c347ca938e60e6c58578f6d47591470d9a20, sha256: 704e59d52b1809646e2272895ba2839cff26ae6e00183df9170b6465584029ac)
+0009.354 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0009.355 (0) No remote despatch: user chose no remote backup service
+0009.357 (0) Recording as successfully uploaded: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip
+0009.360 (0) Deleting zip manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip.list.tmp)
+0009.365 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0009.368 (0) Number of backup sets in history: 2; groups (db): 1
+0009.369 (0) Examining (for databases) backup set with group_id=0, nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0009.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.376 (0) Examining (for databases) backup set with group_id=0, nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0009.376 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.376 (0) Number of backup sets in history: 2; groups (files): 1
+0009.378 (0) Examining (for files) backup set with nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0009.378 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Examining (for files) backup set with nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0009.379 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0009.379 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0009.386 (0) Beginning creation of dump of themes (split every: 400 MB)
+0009.431 (0) Total entities for the zip file: 61 directories, 534 files (0 skipped as non-modified), 45.4 MB
+0009.447 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.462 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.475 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0009.488 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0009.493 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 534 files batched, 431 (431) added so far); re-opening (prior size: 0 KB)
+0010.544 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: size is now: 23.90 MB
+0010.551 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 20605.7 KB/s)
+0010.556 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2430410385132, normalised_time=1.2423720427034, max_time=10.553367137909, data points known=1, old_max_bytes=26214400, new_max_bytes=133607411)
+0010.577 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: 500 files added (on-disk size: 24422.6 KB)
+0011.327 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.tmp: size is now: 43.80 MB
+0011.335 (0) Creating zip file manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.list-temp.tmp)
+0011.340 (0) Successfully created zip file manifest (size: 37862)
+0011.807 (0) Created themes zip (0) - 44805.6 KB in 2.4 s (18537.3 KB/s) (sha1: 3b065c9b79b6de6a2076fde14b9f500e0bfb6e59, sha256: eb55968697c882c0822570ec030afc94fea2555331ed62d976ca30eef3339f4c)
+0011.817 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.818 (0) No remote despatch: user chose no remote backup service
+0011.819 (0) Recording as successfully uploaded: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip
+0011.822 (0) Deleting zip manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip.list.tmp)
+0011.832 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0011.836 (0) Number of backup sets in history: 2; groups (db): 1
+0011.838 (0) Examining (for databases) backup set with group_id=0, nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0011.838 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.840 (0) Examining (for databases) backup set with group_id=0, nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0011.840 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.840 (0) Number of backup sets in history: 2; groups (files): 1
+0011.842 (0) Examining (for files) backup set with nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0011.842 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.844 (0) Examining (for files) backup set with nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0011.844 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0011.844 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0011.859 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0011.860 (0) Looking for candidates to backup in: /home/dh_7mwz4a/dwstaging.link/cms/partner-for-help/wp-content/uploads
+0011.862 (0) finding files: 2025: adding to list (1)
+0011.862 (0) finding files: .htaccess: adding to list (2)
+0011.864 (0) finding files: cfdb7_uploads: adding to list (3)
+0011.865 (0) finding files: wpcf7_uploads: adding to list (4)
+0011.866 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0011.877 (0) Total entities for the zip file: 8 directories, 113 files (0 skipped as non-modified), 7.6 MB
+0011.890 (0) Zip: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0012.036 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-uploads.zip.tmp: size is now: 7.70 MB
+0012.044 (0) Creating zip file manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-uploads.zip.list-temp.tmp)
+0012.046 (0) Successfully created zip file manifest (size: 5817)
+0012.123 (0) Created uploads zip (0) - 7845.7 KB in 0.3 s (30815.9 KB/s) (sha1: e1a82c3e9ee1107e4d03c5b96d79c32c585638e8, sha256: 385ec02770dc97f88e758e64c3dec16bd60c1bd5f63f341672979079c336db14)
+0012.132 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0012.135 (0) No remote despatch: user chose no remote backup service
+0012.137 (0) Recording as successfully uploaded: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-uploads.zip
+0012.143 (0) Deleting zip manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-uploads.zip.list.tmp)
+0012.148 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0012.149 (0) Number of backup sets in history: 2; groups (db): 1
+0012.150 (0) Examining (for databases) backup set with group_id=0, nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0012.150 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.152 (0) Examining (for databases) backup set with group_id=0, nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0012.152 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.152 (0) Number of backup sets in history: 2; groups (files): 1
+0012.153 (0) Examining (for files) backup set with nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0012.153 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.154 (0) Examining (for files) backup set with nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0012.154 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0012.155 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0012.163 (0) No backup of mu-plugins: excluded by user's options
+0012.166 (0) Beginning backup of other directories found in the content directory (index: 0)
+0012.168 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0012.169 (0) Looking for candidates to backup in: /home/dh_7mwz4a/dwstaging.link/cms/partner-for-help/wp-content
+0012.170 (0) finding files: themes: skipping: this is the themes directory
+0012.171 (0) finding files: index.php: adding to list (1)
+0012.172 (0) finding files: plugins: skipping: this is the plugins directory
+0012.174 (0) finding files: uploads: skipping: this is the uploads directory
+0012.175 (0) finding files: upgrade: skipping: excluded by options
+0012.176 (0) finding files: .htaccess: adding to list (2)
+0012.178 (0) finding files: wflogs: adding to list (3)
+0012.179 (0) finding files: updraft: skipping: this is the updraft directory
+0012.180 (0) finding files: debug.log: skipping: excluded by options
+0012.184 (0) Total entities for the zip file: 1 directories, 11 files (0 skipped as non-modified), 9.9 MB
+0013.072 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-others.zip.tmp: size is now: 4.70 MB
+0013.076 (0) Creating zip file manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-others.zip.list-temp.tmp)
+0013.078 (0) Successfully created zip file manifest (size: 354)
+0013.144 (0) Created others zip (0) - 4808.3 KB in 1 s (5008.7 KB/s) (sha1: 57904bc8c89b67bca2c36460b73a18df73091516, sha256: 9269eeabdfafc6d07310fefb7b4edbc7b8a2af414f369862315e78003d570934)
+0013.153 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0013.160 (0) No remote despatch: user chose no remote backup service
+0013.162 (0) Recording as successfully uploaded: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-others.zip
+0013.172 (0) Deleting zip manifest (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-others.zip.list.tmp)
+0013.174 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0013.177 (0) Number of backup sets in history: 2; groups (db): 1
+0013.178 (0) Examining (for databases) backup set with group_id=0, nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0013.178 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.180 (0) Examining (for databases) backup set with group_id=0, nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0013.180 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.180 (0) Number of backup sets in history: 2; groups (files): 1
+0013.181 (0) Examining (for files) backup set with nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0013.181 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.183 (0) Examining (for files) backup set with nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0013.183 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.183 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0013.199 (0) Saving backup status to database (elements: 8)
+0013.202 (0) Beginning creation of database dump (WordPress DB)
+0013.204 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0013.209 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0013.314 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `ch_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!50503 SET character_set_client = utf8mb4 */;\n (truncated - 1559 bytes total)
+0013.321 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0013.357 (0) Table ch_options: Total expected rows (via COUNT): 270
+0013.359 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.370 (0) Table ch_options: Rows added in this batch (next record: 20265): 266 (uncompressed bytes in this segment=103144) in 0.03 seconds
+0013.386 (0) Table ch_options: finishing file(s) (2, 22.3 KB)
+0013.406 (0) Table ch_users: Total expected rows (via COUNT): 2
+0013.408 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.414 (0) Table ch_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1588) in 0.02 seconds
+0013.419 (0) Table ch_users: finishing file(s) (2, 0.7 KB)
+0013.440 (0) Table ch_usermeta: Total expected rows (via COUNT): 46
+0013.442 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.455 (0) Table ch_usermeta: Rows added in this batch (next record: 50): 46 (uncompressed bytes in this segment=3975) in 0.03 seconds
+0013.467 (0) Table ch_usermeta: finishing file(s) (2, 1.6 KB)
+0013.497 (0) Table ch_commentmeta: Total expected rows (via COUNT): 28
+0013.502 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.512 (0) Table ch_commentmeta: Rows added in this batch (next record: 28): 28 (uncompressed bytes in this segment=8419) in 0.04 seconds
+0013.523 (0) Table ch_commentmeta: finishing file(s) (2, 1.5 KB)
+0013.545 (0) Table ch_comments: Total expected rows (via COUNT): 8
+0013.547 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.552 (0) Table ch_comments: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=4532) in 0.02 seconds
+0013.559 (0) Table ch_comments: finishing file(s) (2, 1.2 KB)
+0013.589 (0) Table ch_links: Total expected rows (via COUNT): 0
+0013.596 (0) Table ch_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1298) in 0.02 seconds
+0013.604 (0) Table ch_links: finishing file(s) (2, 0.5 KB)
+0013.630 (0) Table ch_postmeta: Total expected rows (approximate): 6840
+0013.731 (0) Table ch_postmeta: Rows added in this batch (next record: 9521): 9141 (uncompressed bytes in this segment=1023560) in 0.12 seconds
+0013.744 (0) Table ch_postmeta: finishing file(s) (2, 133.8 KB)
+0013.773 (0) Table ch_posts: Total expected rows (via COUNT): 445
+0013.774 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0013.826 (0) Table ch_posts: Rows added in this batch (next record: 639): 445 (uncompressed bytes in this segment=742649) in 0.07 seconds
+0013.835 (0) Table ch_posts: finishing file(s) (2, 32.4 KB)
+0014.059 (0) Table ch_term_relationships: Total expected rows (approximate): 6
+0014.065 (0) Table ch_term_relationships: Rows added in this batch (next record: 100000): 6 (uncompressed bytes in this segment=756) in 0.22 seconds
+0014.072 (0) Table ch_term_relationships: finishing file(s) (2, 0.4 KB)
+0014.091 (0) Table ch_term_taxonomy: Total expected rows (via COUNT): 2
+0014.092 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.095 (0) Table ch_term_taxonomy: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=941) in 0.01 seconds
+0014.102 (0) Table ch_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0014.132 (0) Table ch_termmeta: Total expected rows (via COUNT): 0
+0014.141 (0) Table ch_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=650) in 0.03 seconds
+0014.151 (0) Table ch_termmeta: finishing file(s) (2, 0.4 KB)
+0014.166 (0) Table ch_terms: Total expected rows (via COUNT): 2
+0014.168 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.173 (0) Table ch_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=763) in 0.01 seconds
+0014.179 (0) Table ch_terms: finishing file(s) (2, 0.4 KB)
+0014.207 (0) Table ch_db7_forms: Total expected rows (via COUNT): 61
+0014.226 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.231 (0) Table ch_db7_forms: Rows added in this batch (next record: 61): 61 (uncompressed bytes in this segment=11967) in 0.04 seconds
+0014.248 (0) Table ch_db7_forms: finishing file(s) (2, 2.5 KB)
+0014.271 (0) Table ch_fsmpt_email_logs: Total expected rows (via COUNT): 11
+0014.272 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.279 (0) Table ch_fsmpt_email_logs: Rows added in this batch (next record: 120): 11 (uncompressed bytes in this segment=145010) in 0.02 seconds
+0014.287 (0) Table ch_fsmpt_email_logs: finishing file(s) (2, 12.8 KB)
+0014.307 (0) Table ch_wfauditevents: Total expected rows (via COUNT): 0
+0014.329 (0) Table ch_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.03 seconds
+0014.335 (0) Table ch_wfauditevents: finishing file(s) (2, 0.4 KB)
+0014.355 (0) Table ch_wfblockediplog: Total expected rows (approximate): 0
+0014.358 (0) Table ch_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=624) in 0.01 seconds
+0014.364 (0) Table ch_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0014.380 (0) Table ch_wfblocks7: Total expected rows (via COUNT): 0
+0014.384 (0) Table ch_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=808) in 0.01 seconds
+0014.391 (0) Table ch_wfblocks7: finishing file(s) (2, 0.4 KB)
+0014.406 (0) Table ch_wfconfig: Total expected rows (approximate): 282
+0014.470 (0) Table ch_wfconfig: Rows added in this batch (next record: 1000): 282 (uncompressed bytes in this segment=880315) in 0.07 seconds
+0014.483 (0) Table ch_wfconfig: finishing file(s) (2, 446.4 KB)
+0014.507 (0) Table ch_wfcrawlers: Total expected rows (approximate): 0
+0014.510 (0) Table ch_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=551) in 0.01 seconds
+0014.529 (0) Table ch_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0014.546 (0) Table ch_wffilechanges: Total expected rows (approximate): 0
+0014.551 (0) Table ch_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=455) in 0.01 seconds
+0014.559 (0) Table ch_wffilechanges: finishing file(s) (2, 0.3 KB)
+0014.573 (0) Table ch_wffilemods: Total expected rows (approximate): 0
+0014.577 (0) Table ch_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=858) in 0.01 seconds
+0014.582 (0) Table ch_wffilemods: finishing file(s) (2, 0.4 KB)
+0014.596 (0) Table ch_wfhits: Total expected rows (via COUNT): 3
+0014.598 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.610 (0) Table ch_wfhits: Rows added in this batch (next record: 1726): 3 (uncompressed bytes in this segment=2012) in 0.02 seconds
+0014.632 (0) Table ch_wfhits: finishing file(s) (2, 0.8 KB)
+0014.654 (0) Table ch_wfhoover: Total expected rows (via COUNT): 0
+0014.663 (0) Table ch_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=475) in 0.02 seconds
+0014.689 (0) Table ch_wfhoover: finishing file(s) (2, 0.3 KB)
+0014.711 (0) Table ch_wfissues: Total expected rows (via COUNT): 0
+0014.714 (0) Table ch_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.01 seconds
+0014.730 (0) Table ch_wfissues: finishing file(s) (2, 0.4 KB)
+0014.754 (0) Table ch_wfknownfilelist: Total expected rows (approximate): 7069
+0014.859 (0) Table ch_wfknownfilelist: Rows added in this batch (next record: 7069): 7069 (uncompressed bytes in this segment=1440175) in 0.11 seconds
+0014.873 (0) Table ch_wfknownfilelist: finishing file(s) (2, 96.2 KB)
+0014.891 (0) Table ch_wflivetraffichuman: Total expected rows (approximate): 0
+0014.893 (0) Table ch_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0014.898 (0) Table ch_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0014.917 (0) Table ch_wflocs: Total expected rows (approximate): 1
+0014.920 (0) Table ch_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=831) in 0.01 seconds
+0014.929 (0) Table ch_wflocs: finishing file(s) (2, 0.5 KB)
+0014.946 (0) Table ch_wflogins: Total expected rows (via COUNT): 3
+0014.948 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.960 (0) Table ch_wflogins: Rows added in this batch (next record: 78): 3 (uncompressed bytes in this segment=1382) in 0.02 seconds
+0014.969 (0) Table ch_wflogins: finishing file(s) (2, 0.6 KB)
+0014.991 (0) Table ch_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0014.994 (0) Table ch_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.01 seconds
+0015.000 (0) Table ch_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0015.019 (0) Table ch_wfls_role_counts: Total expected rows (approximate): 0
+0015.020 (0) Table ch_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=578) in 0.01 seconds
+0015.025 (0) Table ch_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+0015.043 (0) Table ch_wfls_settings: Total expected rows (approximate): 30
+0015.045 (0) Table ch_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2054) in 0.01 seconds
+0015.051 (0) Table ch_wfls_settings: finishing file(s) (2, 0.9 KB)
+0015.069 (0) Table ch_wfnotifications: Total expected rows (approximate): 0
+0015.071 (0) Table ch_wfnotifications: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=608) in 0.01 seconds
+0015.085 (0) Table ch_wfnotifications: finishing file(s) (2, 0.4 KB)
+0015.108 (0) Table ch_wfpendingissues: Total expected rows (via COUNT): 0
+0015.110 (0) Table ch_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=851) in 0.01 seconds
+0015.118 (0) Table ch_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0015.143 (0) Table ch_wfreversecache: Total expected rows (approximate): 1
+0015.148 (0) Table ch_wfreversecache: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=625) in 0.01 seconds
+0015.155 (0) Table ch_wfreversecache: finishing file(s) (2, 0.4 KB)
+0015.174 (0) Table ch_wfsecurityevents: Total expected rows (via COUNT): 0
+0015.176 (0) Table ch_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0015.182 (0) Table ch_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0015.201 (0) Table ch_wfsnipcache: Total expected rows (via COUNT): 0
+0015.203 (0) Table ch_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=710) in 0.01 seconds
+0015.208 (0) Table ch_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0015.231 (0) Table ch_wfstatus: Total expected rows (via COUNT): 0
+0015.232 (0) Table ch_wfstatus: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=568) in 0.01 seconds
+0015.239 (0) Table ch_wfstatus: finishing file(s) (2, 0.4 KB)
+0015.255 (0) Table ch_wftrafficrates: Total expected rows (approximate): 0
+0015.257 (0) Table ch_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=561) in 0.01 seconds
+0015.264 (0) Table ch_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0015.284 (0) Table ch_wfwaffailures: Total expected rows (via COUNT): 0
+0015.287 (0) Table ch_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=522) in 0.01 seconds
+0015.293 (0) Table ch_wfwaffailures: finishing file(s) (2, 0.3 KB)
+0015.297 (0) Skipping table (lacks our prefix (ch_)): wp_commentmeta
+0015.302 (0) Skipping table (lacks our prefix (ch_)): wp_comments
+0015.304 (0) Skipping table (lacks our prefix (ch_)): wp_links
+0015.305 (0) Skipping table (lacks our prefix (ch_)): wp_options
+0015.306 (0) Skipping table (lacks our prefix (ch_)): wp_postmeta
+0015.315 (0) Skipping table (lacks our prefix (ch_)): wp_posts
+0015.318 (0) Skipping table (lacks our prefix (ch_)): wp_term_relationships
+0015.319 (0) Skipping table (lacks our prefix (ch_)): wp_term_taxonomy
+0015.321 (0) Skipping table (lacks our prefix (ch_)): wp_termmeta
+0015.327 (0) Skipping table (lacks our prefix (ch_)): wp_terms
+0015.328 (0) Skipping table (lacks our prefix (ch_)): wp_usermeta
+0015.329 (0) Skipping table (lacks our prefix (ch_)): wp_users
+0015.331 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/dh_7mwz4a/dwstaging.link/cms/partner-for-help/wp-content/updraft/backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0015.337 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_options.table.tmpr20266.gz (1/51/fopen): adding to final database dump
+0015.339 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_options.table.gz (2/51/fopen): adding to final database dump
+0015.345 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_users.table.tmpr3.gz (3/51/fopen): adding to final database dump
+0015.347 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_users.table.gz (4/51/fopen): adding to final database dump
+0015.355 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_usermeta.table.tmpr51.gz (5/51/fopen): adding to final database dump
+0015.357 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_usermeta.table.gz (6/51/fopen): adding to final database dump
+0015.358 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_commentmeta.table.tmpr29.gz (7/51/fopen): adding to final database dump
+0015.359 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_commentmeta.table.gz (8/51/fopen): adding to final database dump
+0015.360 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_comments.table.tmpr9.gz (9/51/fopen): adding to final database dump
+0015.362 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_comments.table.gz (10/51/fopen): adding to final database dump
+0015.363 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_links.table.tmpr0.gz (11/51/fopen): adding to final database dump
+0015.364 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_links.table.gz (12/51/fopen): adding to final database dump
+0015.366 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_postmeta.table.tmpr9522.gz (13/51/fopen): adding to final database dump
+0015.368 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_postmeta.table.gz (14/51/fopen): adding to final database dump
+0015.372 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_posts.table.tmpr640.gz (15/51/fopen): adding to final database dump
+0015.374 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_posts.table.gz (16/51/fopen): adding to final database dump
+0015.375 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_term_relationships.table.tmpr100001.gz (17/51/fopen): adding to final database dump
+0015.376 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_term_relationships.table.gz (18/51/fopen): adding to final database dump
+0015.378 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_term_taxonomy.table.tmpr3.gz (19/51/fopen): adding to final database dump
+0015.379 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_term_taxonomy.table.gz (20/51/fopen): adding to final database dump
+0015.381 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_termmeta.table.tmpr0.gz (21/51/fopen): adding to final database dump
+0015.383 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_termmeta.table.gz (22/51/fopen): adding to final database dump
+0015.384 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_terms.table.tmpr3.gz (23/51/fopen): adding to final database dump
+0015.385 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_terms.table.gz (24/51/fopen): adding to final database dump
+0015.387 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_db7_forms.table.tmpr62.gz (25/51/fopen): adding to final database dump
+0015.388 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_db7_forms.table.gz (26/51/fopen): adding to final database dump
+0015.389 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_fsmpt_email_logs.table.tmpr121.gz (27/51/fopen): adding to final database dump
+0015.390 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_fsmpt_email_logs.table.gz (28/51/fopen): adding to final database dump
+0015.391 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfauditevents.table.tmpr0.gz (29/51/fopen): adding to final database dump
+0015.392 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfauditevents.table.gz (30/51/fopen): adding to final database dump
+0015.394 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfblockediplog.table.tmpr1.gz (31/51/fopen): adding to final database dump
+0015.396 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfblockediplog.table.gz (32/51/fopen): adding to final database dump
+0015.398 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfblocks7.table.tmpr0.gz (33/51/fopen): adding to final database dump
+0015.399 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfblocks7.table.gz (34/51/fopen): adding to final database dump
+0015.401 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfconfig.table.tmpr1001.gz (35/51/fopen): adding to final database dump
+0015.408 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfconfig.table.gz (36/51/fopen): adding to final database dump
+0015.409 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfcrawlers.table.tmpr1.gz (37/51/fopen): adding to final database dump
+0015.411 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfcrawlers.table.gz (38/51/fopen): adding to final database dump
+0015.412 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wffilechanges.table.tmpr1.gz (39/51/fopen): adding to final database dump
+0015.413 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wffilechanges.table.gz (40/51/fopen): adding to final database dump
+0015.414 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wffilemods.table.tmpr1.gz (41/51/fopen): adding to final database dump
+0015.416 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wffilemods.table.gz (42/51/fopen): adding to final database dump
+0015.417 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfhits.table.tmpr1727.gz (43/51/fopen): adding to final database dump
+0015.419 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfhits.table.gz (44/51/fopen): adding to final database dump
+0015.420 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfhoover.table.tmpr0.gz (45/51/fopen): adding to final database dump
+0015.424 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfhoover.table.gz (46/51/fopen): adding to final database dump
+0015.426 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfissues.table.tmpr0.gz (47/51/fopen): adding to final database dump
+0015.428 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfissues.table.gz (48/51/fopen): adding to final database dump
+0015.430 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfknownfilelist.table.tmpr7070.gz (49/51/fopen): adding to final database dump
+0015.433 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfknownfilelist.table.gz (50/51/fopen): adding to final database dump
+0015.435 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wflivetraffichuman.table.tmpr1.gz (51/51/fopen): adding to final database dump
+0015.436 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wflivetraffichuman.table.gz (52/51/fopen): adding to final database dump
+0015.437 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wflocs.table.tmpr1001.gz (53/51/fopen): adding to final database dump
+0015.438 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wflocs.table.gz (54/51/fopen): adding to final database dump
+0015.442 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wflogins.table.tmpr79.gz (55/51/fopen): adding to final database dump
+0015.445 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wflogins.table.gz (56/51/fopen): adding to final database dump
+0015.449 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfls_2fa_secrets.table.tmpr0.gz (57/51/fopen): adding to final database dump
+0015.451 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfls_2fa_secrets.table.gz (58/51/fopen): adding to final database dump
+0015.452 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfls_role_counts.table.tmpr1.gz (59/51/fopen): adding to final database dump
+0015.455 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfls_role_counts.table.gz (60/51/fopen): adding to final database dump
+0015.455 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfls_settings.table.tmpr1001.gz (61/51/fopen): adding to final database dump
+0015.457 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfls_settings.table.gz (62/51/fopen): adding to final database dump
+0015.458 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfnotifications.table.tmpr1.gz (63/51/fopen): adding to final database dump
+0015.459 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfnotifications.table.gz (64/51/fopen): adding to final database dump
+0015.460 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfpendingissues.table.tmpr0.gz (65/51/fopen): adding to final database dump
+0015.462 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfpendingissues.table.gz (66/51/fopen): adding to final database dump
+0015.464 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfreversecache.table.tmpr1001.gz (67/51/fopen): adding to final database dump
+0015.465 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfreversecache.table.gz (68/51/fopen): adding to final database dump
+0015.467 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfsecurityevents.table.tmpr0.gz (69/51/fopen): adding to final database dump
+0015.470 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfsecurityevents.table.gz (70/51/fopen): adding to final database dump
+0015.472 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfsnipcache.table.tmpr0.gz (71/51/fopen): adding to final database dump
+0015.475 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfsnipcache.table.gz (72/51/fopen): adding to final database dump
+0015.481 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfstatus.table.tmpr0.gz (73/51/fopen): adding to final database dump
+0015.482 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfstatus.table.gz (74/51/fopen): adding to final database dump
+0015.483 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wftrafficrates.table.tmpr1.gz (75/51/fopen): adding to final database dump
+0015.485 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wftrafficrates.table.gz (76/51/fopen): adding to final database dump
+0015.488 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfwaffailures.table.tmpr0.gz (77/51/fopen): adding to final database dump
+0015.490 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db-table-ch_wfwaffailures.table.gz (78/51/fopen): adding to final database dump
+0015.513 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db.gz: finished writing out complete database file (763.2 KB)
+0015.545 (0) Total database tables backed up: 39 (backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db.gz, size: 781597, sha1: ae4a065f1d9bc9677c852ea84377d1c8f4a4200a, sha256: 2d7aa5b26f4cccebe66050bb9dab05607945c9c9fb0dcb681db028310bd91a6b)
+0015.558 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-plugins.zip: plugins: This file has already been successfully processed
+0015.560 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-themes.zip: themes: This file has already been successfully processed
+0015.561 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-uploads.zip: uploads: This file has already been successfully processed
+0015.563 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-others.zip: others: This file has already been successfully processed
+0015.563 (0) backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.564 (0) Saving backup history. Total backup size: 81.5 MB
+0015.568 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0015.573 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0015.574 (0) No remote despatch: user chose no remote backup service
+0015.580 (0) Recording as successfully uploaded: backup_2025-08-06-1123_Partner_For_Help_846777dd17fe-db.gz
+0015.587 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0015.597 (0) Number of backup sets in history: 3; groups (db): 1
+0015.600 (0) Examining (for databases) backup set with group_id=0, nonce=846777dd17fe, datestamp=1754479395 (Aug 06 2025 11:23:15)
+0015.602 (0) This backup set is the backup set just made, so will not be deleted.
+0015.602 (0) Examining (for databases) backup set with group_id=0, nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0015.602 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.604 (0) Examining (for databases) backup set with group_id=0, nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0015.604 (0) 1743664873: db: this set includes a database (backup_2025-04-03-0721_The_Chosen_Her_bd39a92d544e-db.gz); db count is now 2
+0015.604 (0) 1743664873: db: over retain limit (2); will delete this database
+0015.607 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0015.608 (0) Number of backup sets in history: 3; groups (files): 1
+0015.609 (0) Examining (for files) backup set with nonce=846777dd17fe, datestamp=1754479395 (Aug 06 2025 11:23:15)
+0015.609 (0) This backup set is the backup set just made, so will not be deleted.
+0015.610 (0) This backup set is the backup set just made, so will not be deleted.
+0015.610 (0) This backup set is the backup set just made, so will not be deleted.
+0015.610 (0) This backup set is the backup set just made, so will not be deleted.
+0015.610 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.611 (0) Examining (for files) backup set with nonce=078c35c34969, datestamp=1744285492 (Apr 10 2025 11:44:52)
+0015.611 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0015.611 (0) Examining (for files) backup set with nonce=bd39a92d544e, datestamp=1743664873 (Apr 03 2025 07:21:13)
+0015.611 (0) plugins: over retain limit (2); will delete this file entity
+0015.611 (0) themes: over retain limit (2); will delete this file entity
+0015.611 (0) uploads: over retain limit (2); will delete this file entity
+0015.611 (0) others: over retain limit (2); will delete this file entity
+0015.613 (0) This backup set is now empty; will remove from history
+0015.617 (0) Corresponding log file (log.bd39a92d544e.txt) not found - must have already been deleted
+0015.619 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0015.629 (0) Resume backup (846777dd17fe, 0): finish run
+0015.635 (0) Decremented the semaphore (fd) by 1
+0015.637 (0) Semaphore (fd) unlocked
+0015.638 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0015.643 (0) No email will/can be sent - the user has not configured an email address.
+0015.644 (0) The backup succeeded and is now complete

@@ -1,0 +1,524 @@
+[13-Jul-2025 06:34:24 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[13-Jul-2025 06:34:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[13-Jul-2025 06:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[13-Jul-2025 06:34:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[13-Jul-2025 06:34:31 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[13-Jul-2025 06:34:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[13-Jul-2025 06:34:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[13-Jul-2025 06:34:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[13-Jul-2025 06:34:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[13-Jul-2025 06:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[13-Jul-2025 06:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[13-Jul-2025 06:34:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[13-Jul-2025 06:34:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[13-Jul-2025 06:34:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[13-Jul-2025 06:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[13-Jul-2025 06:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[13-Jul-2025 06:34:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[13-Jul-2025 06:34:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[13-Jul-2025 06:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[13-Jul-2025 06:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[13-Jul-2025 06:34:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[13-Jul-2025 06:34:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[13-Jul-2025 23:21:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[13-Jul-2025 23:21:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[13-Jul-2025 23:21:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[13-Jul-2025 23:21:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[13-Jul-2025 23:21:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[13-Jul-2025 23:21:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[13-Jul-2025 23:21:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[13-Jul-2025 23:21:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[13-Jul-2025 23:21:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[13-Jul-2025 23:21:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[13-Jul-2025 23:21:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[13-Jul-2025 23:21:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[13-Jul-2025 23:21:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[13-Jul-2025 23:21:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[13-Jul-2025 23:21:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[13-Jul-2025 23:21:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[13-Jul-2025 23:21:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[13-Jul-2025 23:21:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[13-Jul-2025 23:21:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[13-Jul-2025 23:21:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[13-Jul-2025 23:21:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[13-Jul-2025 23:21:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[14-Jul-2025 01:11:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[14-Jul-2025 01:11:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[14-Jul-2025 01:11:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[14-Jul-2025 01:11:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[14-Jul-2025 01:11:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[14-Jul-2025 01:11:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[14-Jul-2025 01:11:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[14-Jul-2025 01:11:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[14-Jul-2025 01:11:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[14-Jul-2025 01:11:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[14-Jul-2025 01:11:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[14-Jul-2025 01:12:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[14-Jul-2025 01:12:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[14-Jul-2025 01:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[14-Jul-2025 01:12:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[14-Jul-2025 01:12:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[14-Jul-2025 01:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[14-Jul-2025 01:12:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[14-Jul-2025 01:12:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[14-Jul-2025 01:12:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[14-Jul-2025 01:12:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[14-Jul-2025 01:12:06 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[14-Jul-2025 15:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[14-Jul-2025 15:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[14-Jul-2025 15:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[14-Jul-2025 15:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[14-Jul-2025 15:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[14-Jul-2025 15:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[14-Jul-2025 15:04:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[14-Jul-2025 15:04:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[14-Jul-2025 15:04:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[14-Jul-2025 15:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[14-Jul-2025 15:04:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[14-Jul-2025 15:04:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[14-Jul-2025 15:04:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[14-Jul-2025 15:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[14-Jul-2025 15:04:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[14-Jul-2025 15:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[14-Jul-2025 15:04:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[14-Jul-2025 15:04:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[14-Jul-2025 15:04:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[14-Jul-2025 15:04:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[14-Jul-2025 15:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[14-Jul-2025 15:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[14-Jul-2025 18:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[14-Jul-2025 18:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[14-Jul-2025 18:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[14-Jul-2025 18:15:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[14-Jul-2025 18:15:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[14-Jul-2025 18:15:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[14-Jul-2025 18:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[14-Jul-2025 18:16:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[14-Jul-2025 18:16:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[14-Jul-2025 18:16:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[14-Jul-2025 18:16:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[14-Jul-2025 18:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[14-Jul-2025 18:17:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[14-Jul-2025 18:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[14-Jul-2025 18:17:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[14-Jul-2025 18:18:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[14-Jul-2025 18:18:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[14-Jul-2025 18:18:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[14-Jul-2025 18:18:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[14-Jul-2025 18:18:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[14-Jul-2025 18:18:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[15-Jul-2025 01:29:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[15-Jul-2025 01:29:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/aria-label.php on line 64
+[15-Jul-2025 01:29:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[15-Jul-2025 01:29:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/background.php:111
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/background.php on line 111
+[15-Jul-2025 01:29:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[15-Jul-2025 01:29:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/border.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/border.php on line 170
+[15-Jul-2025 01:29:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[15-Jul-2025 01:29:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php:164
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/dimensions.php on line 164
+[15-Jul-2025 01:29:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[15-Jul-2025 01:29:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/duotone.php on line 36
+[15-Jul-2025 01:29:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[15-Jul-2025 01:29:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/elements.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/elements.php on line 263
+[15-Jul-2025 01:29:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[15-Jul-2025 01:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/layout.php:980
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/layout.php on line 980
+[15-Jul-2025 01:29:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[15-Jul-2025 01:29:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/position.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/position.php on line 145
+[15-Jul-2025 01:29:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[15-Jul-2025 01:30:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/thechosenher/public_html/wp-includes/block-supports/settings.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/settings.php on line 151
+[15-Jul-2025 01:30:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[15-Jul-2025 01:30:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php:79
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/shadow.php on line 79
+[15-Jul-2025 01:30:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83
+[15-Jul-2025 01:30:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Block_Supports" not found in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-supports/spacing.php on line 83

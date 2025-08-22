@@ -1,0 +1,9 @@
+/*
+Theme Name: WebArt Theme
+Author: WebArt Technology
+Description: This is simple custom theme
+Version: 1.0
+*/
+.wpcf7-form-control-wrap .wpcf7-not-valid-tip:not(:first-of-type) {
+    display: none !important;
+}

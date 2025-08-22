@@ -1,0 +1,4 @@
+.env
+.env.*
+wp-config.php            # (optional: commit wp-config-sample.php instead)
+.htaccess                # let each env manage its own

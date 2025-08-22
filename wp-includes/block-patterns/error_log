@@ -1,0 +1,160 @@
+[13-Jul-2025 06:34:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[13-Jul-2025 06:34:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[13-Jul-2025 06:34:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[13-Jul-2025 06:34:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[13-Jul-2025 06:34:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[13-Jul-2025 06:34:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[13-Jul-2025 06:34:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[13-Jul-2025 06:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[13-Jul-2025 23:21:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[13-Jul-2025 23:21:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[13-Jul-2025 23:21:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[13-Jul-2025 23:21:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[13-Jul-2025 23:21:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[13-Jul-2025 23:21:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[13-Jul-2025 23:21:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[13-Jul-2025 23:21:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[14-Jul-2025 01:11:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[14-Jul-2025 01:11:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[14-Jul-2025 01:11:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[14-Jul-2025 01:11:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[14-Jul-2025 01:11:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[14-Jul-2025 01:11:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[14-Jul-2025 01:11:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[14-Jul-2025 01:11:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[14-Jul-2025 15:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[14-Jul-2025 15:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[14-Jul-2025 15:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[14-Jul-2025 15:04:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[14-Jul-2025 15:04:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[14-Jul-2025 15:04:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[14-Jul-2025 15:04:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[14-Jul-2025 15:04:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[15-Jul-2025 01:29:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[15-Jul-2025 01:29:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-grid-posts.php on line 9
+[15-Jul-2025 01:29:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[15-Jul-2025 01:29:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-medium-posts.php on line 9
+[15-Jul-2025 01:29:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[15-Jul-2025 01:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-offset-posts.php on line 9
+[15-Jul-2025 01:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
+[15-Jul-2025 01:29:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _x() in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/thechosenher/public_html/wp-includes/block-patterns/query-small-posts.php on line 9
