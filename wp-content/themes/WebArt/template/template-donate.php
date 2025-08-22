@@ -14,11 +14,8 @@ get_header(); ?>
                 <div class="about-box-wrp row justify-content-between align-items-center">
                     <div class="col-md-5">
                         <div class="about-wrp-text donateBox text-start ">
-                            <h3 class="purpleTitle">
-                            On average, a child waits four months to be sponsored. </h3>
-                        <p>Meanwhile, our local church partners ensure all children receive the education, healthcare, nutritious food and encouragement they need not just to wonder if there is a brighter future—but to reach it. Every child also hears how their ultimate hope for the future is found in Jesus.</p>
-                        <h5 class="purpleTitle">It’s thanks to the Unsponsored Children fund that every child, even if they’re not yet sponsored or their sponsor has cancelled, has a brighter future.</h5>
-                        </div>
+                        <?php the_field('form_left_content'); ?>    
+                    </div>
                     </div>
                     <div class="col-md-6">
                         <div class="donateForm">

@@ -5,11 +5,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /partner-in-help-v1/
+RewriteBase /partnerinhelpnew/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /partner-in-help-v1/index.php [L]
+RewriteRule . /partnerinhelpnew/index.php [L]
 </IfModule>
 
 # END WordPress

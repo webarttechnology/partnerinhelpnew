@@ -5,10 +5,10 @@ $we_serve_content = get_field('we_serve_content');
 $we_serve_button = get_field('we_serve_button');
 ?>
 <section class="banner">
-	
+
 	<div class="butterfly-small"></div>
 	<div class="butterfly">
-		<img src="https://thechosenher.com/wp-content/uploads/2025/04/purple-butterfly.webp" alt="butterfly pic" />
+		<img src="#" alt="butterfly pic" />
 	</div>
 	<div class="container">
 		<div class="banner-part">
@@ -67,7 +67,6 @@ $our_mission_button = get_field('our_mission_button');
 				<div class="col-md-5">
 					<div class="banner-text">
 						<h4 class="text-white">
-							Helloooooooooooo
 							<span class="image-side"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/design2.png" alt="decorative-image"/></span>
 							<?php echo $our_mission_heading; ?>
 						</h4>
@@ -176,55 +175,57 @@ $donation_loop = get_field('donation_loop');
 			</div>
 		</div>
 		<div class="row">
-			<?php
-			if (have_rows('donation_loop')) :
-			$index = 0;
-			while (have_rows('donation_loop')) : the_row();
-			$image = get_sub_field('image');
-			$content = get_sub_field('content');
+	<?php
+	if (have_rows('donation_loop')) :
+		$index = 0;
+		while (have_rows('donation_loop')) : the_row();
+			$image       = get_sub_field('image');
+			$content     = get_sub_field('content');
 			$button_text = get_sub_field('button_text');
 
-			// Apply class to odd-numbered rows
-			$show_class = ($index % 2 !== 0) ? 'oddClass' : '';
-			?>
-			<div class="col-md-12 <?php echo esc_attr($show_class); ?>" data-aos="fade-up" data-aos-duration="1000">
-				<div class="about-box-wrp row">
-					<div class="box-img col-md-6">
-						<img src="<?php echo esc_url($image['url']); ?>" alt="about-box2">
-					</div>
-					<div class="about-wrp-text col-md-6">
-						<h4 class="purpleTitle">
-							<?php the_sub_field('heading'); ?>
-						</h4>
-						<?php echo wp_kses_post($content); ?>
-						<div class="home-button d-none">
-							<?php
-							if ($button_text) :
-							$link_url = $button_text['url'];
+			// Alternate row layout
+			$row_class = ($index % 2 !== 0) ? 'flex-row-reverse' : '';
+	?>
+		<div class="col-md-12" data-aos="fade-up" data-aos-duration="1000">
+			<div class="about-box-wrp row <?php echo esc_attr($row_class); ?>">
+				<div class="box-img col-md-6">
+					<img src="<?php echo esc_url($image['url']); ?>" alt="about-box-img" />
+				</div>
+				<div class="about-wrp-text col-md-6">
+					<h4 class="purpleTitle">
+						<?php the_sub_field('heading'); ?>
+					</h4>
+					<?php echo wp_kses_post($content); ?>
+					
+					<div class="home-button d-none">
+						<?php if ($button_text) :
+							$link_url   = $button_text['url'];
 							$link_title = $button_text['title'];
-							?>
+						?>
 							<a href="<?php echo esc_url($link_url); ?>" class="btn-color">
 								<?php echo esc_html($link_title); ?>
 								<span class="arrow-icon">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/image/rightarrowblk.png" alt="arrow-icon-img" />
 								</span>
 							</a>
-							<?php endif; ?>
-						</div>
-						<form action="https://www.paypal.com/donate" method="post" target="_top" class="donateBtn">
-							<input type="hidden" name="hosted_button_id" value="RJCZP39C5KA9W" />
-							<input type="image" class="donate_Button" src="https://thechosenher.com/wp-content/uploads/2025/04/donate-now-button.webp" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-							<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-						</form>
+						<?php endif; ?>
 					</div>
+
+					<form action="" method="post" target="_top" class="donateBtn">
+						<input type="hidden" name="hosted_button_id" value="RJCZP39C5KA9W" />
+						<input type="image" class="donate_Button" src="https://thechosenher.com/wp-content/uploads/2025/04/donate-now-button.webp" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+						<img alt="" border="0" src="" width="1" height="1" />
+					</form>
 				</div>
 			</div>
-			<?php
-			$index++; // Move the increment inside the loop
-			endwhile;
-			endif;
-			?>
 		</div>
+	<?php
+		$index++;
+		endwhile;
+	endif;
+	?>
+</div>
+
 	</div>
 </section>
 
@@ -237,7 +238,7 @@ $donation_loop = get_field('donation_loop');
 			<div class="col-lg-10">
 				<h2 class="partnership-title animate__animated animate__fadeIn animate__delay-4s"><?php echo esc_html( get_field('collaboration_heading', 17) ); ?></h2>
 				<p class="partnership-text animate__animated animate__fadeInUp animate__delay-4s">
-					<?php echo esc_html( get_field('collaboration_description', 17) ); ?>
+					<?php echo ( get_field('collaboration_description', 17) ); ?>
 				</p>
 			</div>
 		</div>

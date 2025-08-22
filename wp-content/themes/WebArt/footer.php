@@ -13,43 +13,24 @@ $copyright_text = get_field( 'copyright_text', 'option');
 				<div class="footer-logo">
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
-							<?php
-							$site_title = get_bloginfo( 'name' );
-							$site_tagline = get_bloginfo( 'description' );
-							$custom_logo = get_theme_mod( 'custom_logo' );
-							$custom_logo_id = attachment_url_to_postid($custom_logo);
-							$custom_logo_alt = get_post_meta($custom_logo_id, '_wp_attachment_image_alt', true);
-							if ( $custom_logo ) :
-							?>
-							<img src="<?php echo esc_url( $custom_logo ); ?>" alt="<?php echo $custom_logo_alt; ?>" class="img-fluid" />
-							<?php else : ?>
-							<?php echo $site_title; ?>
-							<?php endif; ?>
-						</a>
+								<?php 
+$image = get_field('site_logo_image','options');
+if( !empty($image) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" 
+         alt="<?php echo esc_attr($image['alt']); ?>" 
+         class="img-fluid" />
+<?php endif; ?>
+
+							</a>
 					</div>
 					<?php if ( $footer_content ) : ?>
 					<p><?php echo $footer_content; ?></p>
 					<?php endif; ?>
 					<div class="footer-icon">
-						<?php
-						if( have_rows('social','option') ):
-						while ( have_rows('social','option') ) : the_row();
-
-						$social_link = get_sub_field('social_link');
-						$social_icon = get_sub_field('social_icon');
-
-						if( $social_link ): 
-						$slink_url = $social_link['url'];
-						$slink_title = $social_link['title'];
-						$slink_target = $social_link['target'] ? $social_link['target'] : '_self';
-						?>
-						<a href="<?php echo esc_url( $slink_url ); ?>" target="<?php echo esc_attr( $slink_target ); ?>"><?php echo $social_icon; ?></a>
-						<?php endif; ?>                        
-						<?php
-						endwhile;
-						endif;
-						?>
-					</div>
+						<a href="https://www.instagram.com/" target="_blank"><i class="fa-classic fa-brands fa-instagram" aria-hidden="true"></i></a>
+						 <a href="https://www.linkedin.com/" target="_blank"><i class="fa-classic fa-brands fa-linkedin" aria-hidden="true"></i></a>
+						                        
+						</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3">
@@ -117,7 +98,7 @@ $copyright_text = get_field( 'copyright_text', 'option');
 			</div>
 		</div>
 		<div class="bottom-footer text-center">
-			<p> © <span id="year"> </span> <a href="<?php echo home_url(); ?>"><?php echo $site_title; ?></a>. <?php echo $copyright_text; ?>.</p>
+			<p> © <span id="year"> </span> <a href="<?php echo home_url(); ?>">Partner in help</a>. <?php echo $copyright_text; ?>.</p>
 		</div>
 	</div>
 </footer>

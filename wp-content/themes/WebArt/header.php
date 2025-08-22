@@ -94,11 +94,14 @@ $custom_logo_alt = get_post_meta($custom_logo_id, '_wp_attachment_image_alt', tr
 					<div class="header-logo">
 						<div class="logo">
 							<a href="<?php echo home_url(); ?>">
-								<?php if ( $custom_logo ) : ?>
-								<img src="<?php echo esc_url( $custom_logo ); ?>" alt="<?php echo $custom_logo_alt; ?>" class="img-fluid" />
-								<?php else : ?>
-								<?php echo $site_title; ?>
-								<?php endif; ?>
+								<?php 
+$image = get_field('site_logo_image','options');
+if( !empty($image) ): ?>
+    <img src="<?php echo esc_url($image['url']); ?>" 
+         alt="<?php echo esc_attr($image['alt']); ?>" 
+         class="img-fluid" />
+<?php endif; ?>
+
 							</a>
 						</div>
 					</div>
@@ -113,7 +116,7 @@ $custom_logo_alt = get_post_meta($custom_logo_id, '_wp_attachment_image_alt', tr
 							?>
 						</div>
 						<div class="button d-none">
-							<a href="https://thechosenher.com/contact-us/" class="btn">Contact</a>
+							<a href="#" class="btn">Contact</a>
 						</div>
 					</div>
 				</div>

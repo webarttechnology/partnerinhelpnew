@@ -3,124 +3,6 @@
 Template Name: Donation
 */
 get_header(); ?>
-<!-- Donors Section -->
-<?php /*<section class="donor-section">
-	<div class="butterfly">
-		<img src="https://thechosenher.com/wp-content/uploads/2025/04/purple-butterfly.webp" alt="butterfly pic" />
-	</div>
-	<div class="container">
-		<div class="row justify-content-center text-center">
-			<div class="col-lg-8">
-				<!--                 <h1 class="donor-title mb-4 animate__animated animate__fadeIn">Donors Page</h1> -->
-				<h1 class="donor-title mb-4 animate__animated animate__fadeIn animate__delay-1s"><?php echo esc_html( get_field('join_us_heading') ); ?></h1>
-				<p class="donor-text mb-4 animate__animated animate__fadeInUp animate__delay-2s">
-					<?php echo esc_html( get_field('join_us_paragraph_1') ); ?>
-				</p>
-				<p class="donor-text mb-5 animate__animated animate__fadeInUp animate__delay-3s">
-
-					<?php echo ( get_field('join_us_paragraph_2') ); ?>
-				</p>
-				<!-- Donate Button with Hover Effect -->
-				<!-- 				
-<a href="< ?php echo esc_url( get_field('donation_link') ); ?>" 
-class="btn btn-contact text-white animate__animated animate__pulse animate__infinite">
-< ?php echo esc_html( get_field('join_us_button_text') ); ?>
-</a> -->
-				<form action="https://www.paypal.com/donate" method="post" target="_top" class="donateBtn">
-					<input type="hidden" name="hosted_button_id" value="RJCZP39C5KA9W" />
-					<input type="image" class="donate_Button" src="https://thechosenher.com/wp-content/uploads/2025/04/donate-now-button.webp" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-					<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
-				</form>
-			</div>
-		</div>
-	</div>
-
-	<!-- butterfly effect	 -->
-
-	<div class="canvas">
-		<div class="bf bf-1">
-			<div class="wing-left">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-			<div class="wing-right">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="bf bf-2">
-			<div class="wing-left">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-			<div class="wing-right">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="bf bf-3">
-			<div class="wing-left">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-			<div class="wing-right">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="bf bf-4">
-			<div class="wing-left">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-			<div class="wing-right">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-		</div>
-		<div class="bf bf-5">
-			<div class="wing-left">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-			<div class="wing-right">
-				<svg width="100%" height="100%" viewBox="0 0 17 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
-					<g transform="matrix(0.0156264,0,0,0.0156264,-5.01358,-5.8732)">
-						<path d="M1440.74,1614.9C1440.74,1494.13 1440.61,1185.89 1440.61,1065.11C1359.94,917.774 1154.27,576.526 933.987,480.781C758.042,404.081 442.781,320.927 347.826,423.951C309.909,465.096 311.95,525.578 353.949,603.894C495.736,868.494 562.977,1033.61 559.433,1109.67C559.631,1165.3 582.03,1218.62 621.625,1257.7C672.094,1308.02 737.686,1340.44 808.312,1349.98C720.107,1405.47 666.305,1502.53 665.987,1606.74C667.922,1738.19 698.611,1867.63 755.892,1985.96C802.959,2114.05 921.66,2202.78 1057.84,2211.67L1059.66,2211.67C1210.93,2193.6 1319.79,2057.62 1304.35,1906.04C1304.35,1701.95 1387.79,1632.12 1440.74,1614.9Z" style="fill:black;fill-rule:nonzero;" />
-					</g>
-				</svg>
-			</div>
-		</div>
-	</div>
-
-</section> */?>
 
 
 <!-- Donation Form Modal -->
@@ -163,70 +45,86 @@ class="btn btn-contact text-white animate__animated animate__pulse animate__infi
 
 
 
-<section class="donateBanner aboutNew" style="background:url(https://dwstaging.link/cms/partner-for-help/wp-content/uploads/2025/08/donate2.jpg) no-repeat center center; background-size:cover; ">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-7">
-				<h1>Join Us in Making a Difference</h1>
-				<p>TheChosenHer Inc is committed to transforming the lives of young girls & women through emotional healing, mental health support, and purposeful living as a Leader. </p>
-				<a href="https://dwstaging.link/cms/partner-for-help/donation/" class="btn btn-contact animate__animated animate__pulse animate__infinite">Donate Today</a>
-			</div>
-		</div>
-	</div>
+<?php 
+$bg_image = get_field('background_image');   // Image field
+$heading  = get_field('join_us_heading'); // Text field
+$content  = get_field('join_us_paragraph_1');            // Textarea or WYSIWYG field
+$button   = get_field('donation_link');      // Link field
+?>
+<?php if( $bg_image || $heading || $content || $button ): ?>
+<section class="donateBanner aboutNew" 
+    style="background:url('<?php echo esc_url($bg_image['url']); ?>') no-repeat center center; background-size:cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <?php if( $heading ): ?>
+                    <h1><?php echo esc_html($heading); ?></h1>
+                <?php endif; ?>
 
-</section>
+                <?php if( $content ): ?>
+                    <p><?php echo esc_html($content); ?></p>
+                <?php endif; ?>
 
-<section class="fourth bg-light donets">
-    <div class="container">
-        <div class="row align-items-center">
-			<div class="col-md-6"><img src="https://dwstaging.link/cms/partner-for-help/wp-content/uploads/2025/08/donate1.jpg" alt="image" class="w-100"></div>
-			<div class="col-md-6">
-				<h2 class="text-dark">Where Most Needed</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas quaerat neque harum! Magni quaerat non id aliquid at. Itaque eius reiciendis aliquam numquam quibusdam quaerat totam nulla, doloremque exercitationem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nobis odit accusantium rerum? Sed eveniet porro autem eius eum harum, quo voluptatum magnam, dolore sit optio? Dolorem consequatur tempore totam?</p>
-				<div class="d-flex donateInputs relative mt-5">
-					<span class="currency"><i class="fa fa-usd" aria-hidden="true"></i>
-</span>
-					<input type="text" name="" id="" class="form-control" value="50">
-					<button type="Submit" class="btn-color contactBtn">Donate Now</button>
-				</div>
-			</div>
-		</div>
-	</div>
+                <?php if( $button ): ?>
+                    <a href="<?php echo esc_url($button['url']); ?>" 
+                       target="<?php echo esc_attr($button['target'] ?: '_self'); ?>" 
+                       class="btn btn-contact animate__animated animate__pulse animate__infinite">
+                        <?php echo esc_html($button['title']); ?>
+                    </a>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
 </section>
-<section class="fourth bg-light donets">
-    <div class="container">
-        <div class="row flex-row-reverse align-items-center">
-			<div class="col-md-6"><img src="https://dwstaging.link/cms/partner-for-help/wp-content/uploads/2025/08/donate1.jpg" alt="image" class="w-100"></div>
-			<div class="col-md-6">
-				<h2 class="text-dark">Disaster Relief</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas quaerat neque harum! Magni quaerat non id aliquid at. Itaque eius reiciendis aliquam numquam quibusdam quaerat totam nulla, doloremque exercitationem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nobis odit accusantium rerum? Sed eveniet porro autem eius eum harum, quo voluptatum magnam, dolore sit optio? Dolorem consequatur tempore totam?</p>
-				<div class="d-flex donateInputs relative mt5">
-					<span class="currency"><i class="fa fa-usd" aria-hidden="true"></i>
-</span>
-					<input type="text" name="" id="" class="form-control" value="50">
-					<button type="Submit" class="btn-color contactBtn">Donate Now</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section class="fourth bg-light donets">
-    <div class="container">
-        <div class="row align-items-center">
-			<div class="col-md-6"><img src="https://dwstaging.link/cms/partner-for-help/wp-content/uploads/2025/08/donate3.jpg" alt="image" class="w-100"></div>
-			<div class="col-md-6">
-				<h2 class="text-dark">Highly Vulnerable Children</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas quaerat neque harum! Magni quaerat non id aliquid at. Itaque eius reiciendis aliquam numquam quibusdam quaerat totam nulla, doloremque exercitationem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nobis odit accusantium rerum? Sed eveniet porro autem eius eum harum, quo voluptatum magnam, dolore sit optio? Dolorem consequatur tempore totam?</p>
-				<div class="d-flex donateInputs relative mt5">
-					<span class="currency"><i class="fa fa-usd" aria-hidden="true"></i>
-</span>
-					<input type="text" name="" id="" class="form-control" value="50">
-					<button type="Submit" class="btn-color contactBtn">Donate Now</button>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<?php endif; ?>
+
+
+
+<?php if( have_rows('donation_sections') ): ?>
+    <?php $index = 0; ?>
+    <?php while( have_rows('donation_sections') ): the_row(); 
+        $image   = get_sub_field('image');
+        $title   = get_sub_field('title');
+        $content = get_sub_field('content');
+        $amount  = get_sub_field('amount') ?: 50; // fallback to 50 if empty
+
+        // Alternate layout: normal row vs reversed row
+        $row_class = ($index % 2 !== 0) ? 'flex-row-reverse' : '';
+    ?>
+    <section class="fourth bg-light donets">
+        <div class="container">
+            <div class="row <?php echo esc_attr($row_class); ?> align-items-center">
+                <?php if( $image ): ?>
+                    <div class="col-md-6">
+                        <img src="<?php echo esc_url($image['url']); ?>" 
+                             alt="<?php echo esc_attr($image['alt']); ?>" 
+                             class="w-100" />
+                    </div>
+                <?php endif; ?>
+                <div class="col-md-6">
+                    <?php if( $title ): ?>
+                        <h2 class="text-dark"><?php echo esc_html($title); ?></h2>
+                    <?php endif; ?>
+
+                    <?php if( $content ): ?>
+                        <div class="donateContent">
+                            <?php echo wp_kses_post($content); ?>
+                        </div>
+                    <?php endif; ?>
+
+                    <div class="d-flex donateInputs relative mt-5">
+                        <span class="currency"><i class="fa fa-usd" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" value="<?php echo esc_attr($amount); ?>">
+                        <button type="submit" class="btn-color contactBtn">Donate Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php $index++; ?>
+    <?php endwhile; ?>
+<?php endif; ?>
+
 
 
 

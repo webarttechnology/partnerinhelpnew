@@ -50,7 +50,7 @@ $purpose_image = get_field('purpose_image');
 
 			<div class="col-12">
 				<div class="fourth-box pb-0 pt-0">
-					<h1 class="text-dark"><?php echo $welcome_heading; ?> gfdhgfdg</h1>
+					<h1 class="text-dark"><?php echo $welcome_heading; ?></h1>
 					<?php echo $welcome_content; ?>
 				</div>
 			</div>
